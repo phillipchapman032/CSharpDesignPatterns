@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CSharpDesignPatterns.Base
 {
-    public class DownHill : AbstractRoadBike
+    public class DownHill : AbstractMountainBike
     {
         public override decimal Price { get; } = 870.00m;
 
